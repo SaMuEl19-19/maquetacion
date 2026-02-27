@@ -1,0 +1,158 @@
+/* Eliminamos todo el margin y el padding */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Color por defecto del body */
+body{
+    background-color: #ababab;
+    font-family:  Arial, Helvetica, sans-serif;  
+  }
+  /*titulo principal */
+#Nombre{
+    padding: 40px 0;
+    color: rgb(239 237 237);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 39px;
+    background-color: #393939;
+}
+/*contenedor de enlaces */
+ .enlaces{
+    background-color: rgb(149 149 149);
+    margin-top: -37px;
+    text-decoration: none;
+    padding: 14px 20px;
+ }
+ /* ponemos estilos a los apartados de la web */
+.menu{
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+/* ponemos estilos para que se note en que apartado estamos */
+.menu_active{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  margin: 0 30px;
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* añadimos un efecto visual cuando pasemos el cursor por encima */
+.menu:hover{
+color:rgb(255, 255, 255);
+}
+/* añadimos el titulo del formulario*/
+h2{
+    padding: 20px 0px 50px 0px;
+    text-align: center;
+}
+/* le damos forma al formulario */
+.Formulario{
+max-width: 800px;
+margin: 50px auto;
+background: #fafafa;
+padding: 40px;
+border-radius: 8px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+text-align: center;
+}
+label {
+  display: inline-block;
+  width: 500px;
+  margin:20px;
+  font-family: cursive;
+}
+/* añadimos un espacio para poder rellenar el formulario*/
+input {
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+/*añadimos un texto multilinea */
+input textarea{
+width: 100%;
+padding: 10px;
+ margin-top: 6px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 14px;
+box-sizing: border-box;
+}
+/* añadimos los botones de enviar y borrar */
+.botones {
+  margin-left: 170px;
+  margin-top: 10px;
+}
+button {
+  background: #5aa9ff;
+  color: white;
+  border: 1px solid #3b82f6;
+  padding: 4px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  margin: 20px 160px 24px -3px;
+}
+/* añadimos los estilos del Pie */
+.Pie{
+  background-color: #393939;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 70px;
+  justify-content: space-evenly;
+}
+/* Estilos de los textos*/
+.columna h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.columna{
+  text-align: center;
+  text-decoration: underline white;
+}
+/*direccion de la empresa*/
+.direccion{
+text-align: center;
+margin-left: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*aviso legal*/
+.aviso h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+}
+.aviso{
+text-align: center;
+  margin-left: 50px;
+}
+/*añadimos el enlace y el efecto cuando pasemos el cursor por encima */                                           
+.enlace{
+  text-decoration: none;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.enlace:hover{
+  text-decoration: underline;
+}
+/* añadimos los logos ajustando su ancho y altura */
+.logo{
+ height: 30px;
+ margin: 0px 6px 7px 6px;
+}
+.logo1{
+  height: 22px;
+  margin: 0px 0px 10.5px 10px;
+}
+.logo4{
+height: 44px;
+}
+.privacidad {
+    margin: 20px 0;
+    text-align: center;
+}
